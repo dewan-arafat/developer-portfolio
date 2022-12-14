@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-        <div style={{ backgroundImage: `url(${HeroBg})` }} className='flex flex-col-reverse md:flex-row pt-10 px-3 bg-gray-700 bg-cover bg-blend-darken '>
+        <div style={{ backgroundImage: `url(${HeroBg})` }} className='flex flex-col-reverse md:flex-row pt-10 px-3 bg-gray-700 bg-contain bg-blend-darken '>
             <div className='flex text-white px-4 md:w-1/2 lg:pl-24 '>
                 <div className='hidden md:block pr-10 pt-1 '>
 
